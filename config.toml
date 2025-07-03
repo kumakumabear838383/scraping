@@ -1,0 +1,60 @@
+[global]
+# Streamlit configuration for production deployment
+
+# Development mode
+developmentMode = false
+
+# Show warning about running in development mode
+showWarningOnDirectExecution = false
+
+[server]
+# Server configuration
+headless = true
+enableCORS = false
+enableXsrfProtection = true
+
+# Port configuration (Streamlit Cloud will override this)
+port = 8501
+
+# File watcher configuration
+fileWatcherType = "none"
+
+# Max upload size (200MB)
+maxUploadSize = 200
+
+# Max message size (200MB)
+maxMessageSize = 200
+
+[browser]
+# Browser configuration
+gatherUsageStats = false
+serverAddress = "0.0.0.0"
+
+[theme]
+# Custom theme configuration
+primaryColor = "#1f77b4"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+font = "sans serif"
+
+[client]
+# Client configuration
+caching = true
+displayEnabled = true
+showErrorDetails = true
+
+[runner]
+# Runner configuration
+magicEnabled = true
+installTracer = false
+fixMatplotlib = true
+
+[logger]
+# Logging configuration
+level = "info"
+messageFormat = "%(asctime)s %(message)s"
+
+[deprecation]
+# Deprecation warnings
+showPyplotGlobalUse = false

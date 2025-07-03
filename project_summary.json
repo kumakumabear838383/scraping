@@ -1,0 +1,36 @@
+{
+  "project_name": "安全なWebスクレイピングツール",
+  "framework": "Streamlit",
+  "files_created": 6,
+  "total_size_kb": 23.9,
+  "files": [
+    "streamlit_app.py",
+    "requirements.txt",
+    "README.md",
+    ".gitignore",
+    "setup.sh",
+    ".streamlit/config.toml"
+  ],
+  "features": [
+    "Streamlit imports",
+    "Web scraping imports",
+    "Data processing",
+    "Page configuration",
+    "CSS styling",
+    "Input fields",
+    "Scraping function",
+    "Progress bar",
+    "Error handling",
+    "Random delay",
+    "User-Agent header",
+    "Data preview",
+    "Download buttons",
+    "Excel export",
+    "CSV export",
+    "Session state",
+    "CSS selector guide",
+    "Warning messages"
+  ],
+  "deployment_ready": true,
+  "created_at": "2024"
+}
